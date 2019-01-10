@@ -8,7 +8,7 @@ a)	The side chain depositor sets the listening frequency and the number of submi
 b)	After the submission, the main chain deposit function wil listen to the side chain block header at the set listening frequency, and call the submitBlock function in the Relay contract to store the currently uncerified block in the main chain's Relay contract. The gas required for this process is paid in the account that set in the app.js file.  
 3)	output：None.  
 ![](/images/console.jpg)   
-## (2) 侧链验证平台界面
+## (2) Sidechain Verification Platform Interface
 1)	input: the hash of side chain's transaction.   
 2)	Functions：side chain transaction verification function.   
 a)	Firstly, the side chain user submits his own transaction hash on the side chain, then click on the query button.  
